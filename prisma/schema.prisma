@@ -1,0 +1,183 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id                String          @id @default(uuid())
+  email             String          @unique
+  nombre            String
+  apellido          String
+  clave             String
+  cedula            String?         @unique
+  telefono          String?         @unique
+  rol               String          @default("USER")
+  estado            Int             @default(1)
+  orden             Orden[]
+  calificacion      Calificacion[]
+  favorito          Favorito[]
+  domicilio         Domicilio[]
+  carrito           Carrito[]
+  detallesOrden     DetallesOrden[]
+  fechaCreacion     DateTime        @default(now())
+  fechaModificacion DateTime        @updatedAt
+}
+
+model Orden {
+  id                Int             @id @default(autoincrement())
+  usuario           Usuario         @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  domicilio         Domicilio       @relation(fields: [domicilioId], references: [id])
+  domicilioId       Int
+  precioTotal       Float
+  estadoEnvio       Int             @default(0)
+  rastreoId         String?
+  estado            Int             @default(1)
+  detallesOrden     DetallesOrden[]
+  fechaCreacion     DateTime        @default(now())
+  fechaModificacion DateTime        @updatedAt
+}
+
+model Carrito {
+  id                Int      @id @default(autoincrement())
+  usuario           Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  producto          Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId        Int
+  talla             String
+  color             String
+  cantidad          Int
+  subtotal          Float
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model DetallesOrden {
+  id                Int      @id @default(autoincrement())
+  usuario           Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  producto          Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId        Int
+  orden             Orden?   @relation(fields: [ordenId], references: [id], onDelete: Cascade)
+  ordenId           Int?
+  talla             String
+  color             String
+  cantidad          Int
+  subtotal          Float
+  estado            Int      @default(1)
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model Producto {
+  id                 Int                  @id @default(autoincrement())
+  categoria          Categoria            @relation(fields: [categoriaId], references: [id])
+  categoriaId        Int
+  nombre             String
+  descripcion        String
+  descripcionEng     String
+  precio             Float
+  imagen             String[]
+  marca              String
+  estado             Int                  @default(1)
+  productoTallaColor ProductoTallaColor[]
+  calificacion       Calificacion[]
+  favorito           Favorito[]
+  detallesOrden      DetallesOrden[]
+  carrito            Carrito[]
+  fechaCreacion      DateTime             @default(now())
+  fechaModificacion  DateTime             @updatedAt
+}
+
+model ProductoTallaColor {
+  id                Int      @id @default(autoincrement())
+  producto          Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId        Int
+  talla             String
+  color             String
+  colorEng          String
+  stock             Int
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model Categoria {
+  id                Int        @id @default(autoincrement())
+  nombre            String
+  descripcion       String?
+  producto          Producto[]
+  fechaCreacion     DateTime   @default(now())
+  fechaModificacion DateTime   @updatedAt
+}
+
+model Calificacion {
+  id                Int      @id @default(autoincrement())
+  producto          Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId        Int
+  usuario           Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  comentario        String
+  puntuacion        Int
+  estado            Int      @default(1)
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model Favorito {
+  id                Int      @id @default(autoincrement())
+  usuario           Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  producto          Producto @relation(fields: [productoId], references: [id], onDelete: Cascade)
+  productoId        Int
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model Pais {
+  id                Int            @id @default(autoincrement())
+  nombre            String
+  departamento      Departamento[]
+  fechaCreacion     DateTime       @default(now())
+  fechaModificacion DateTime       @updatedAt
+}
+
+model Departamento {
+  id                Int      @id @default(autoincrement())
+  pais              Pais     @relation(fields: [paisId], references: [id])
+  paisId            Int
+  nombre            String
+  ciudad            Ciudad[]
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}
+
+model Ciudad {
+  id                Int          @id @default(autoincrement())
+  departamento      Departamento @relation(fields: [departamentoId], references: [id])
+  departamentoId    Int
+  nombre            String
+  domicilio         Domicilio[]
+  fechaCreacion     DateTime     @default(now())
+  fechaModificacion DateTime     @updatedAt
+}
+
+model Domicilio {
+  id                Int      @id @default(autoincrement())
+  usuario           Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  usuarioId         String
+  ciudad            Ciudad   @relation(fields: [ciudadId], references: [id])
+  ciudadId          Int
+  direccion         String
+  detalles          String
+  orden             Orden[]
+  fechaCreacion     DateTime @default(now())
+  fechaModificacion DateTime @updatedAt
+}

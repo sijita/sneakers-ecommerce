@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Usuario" ALTER COLUMN "cedula" DROP NOT NULL,
+ALTER COLUMN "telefono" DROP NOT NULL;

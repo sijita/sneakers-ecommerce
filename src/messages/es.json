@@ -1,0 +1,432 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "contact": "Contacto"
+  },
+  "Login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "loginBtnText": "Iniciar sesión",
+    "signupBtnText": "Registrarse",
+    "recoverPassword": "Recuperar contraseña",
+    "requiredFields": "Todos los campos son obligatorios",
+    "invalidEmail": "Correo electrónico inválido",
+    "success": "Sesión iniciada correctamente",
+    "error": "Ocurrio un error, por favor intenta mas tarde"
+  },
+  "Signup": {
+    "title": "Registrarse",
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "passwordCondition": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número",
+    "signupBtnText": "Registrarse",
+    "loginBtnText": "Iniciar sesión"
+  },
+  "Home": {
+    "heroTitle": "TUS PIES MERECEN LO MEJOR",
+    "heroSubtitle": "Tus pies merecen lo mejor y nosotros estamos para ayudarte.",
+    "heroBtnText": "Comprar ahora",
+    "firstCategory": "Niños",
+    "secondCategory": "Hombres",
+    "thirdCategory": "Mujeres",
+    "categoryBtnText": "Ver más",
+    "featuredTitle": "Destacados"
+  },
+  "Shop": {
+    "kidsCategory": "Niños",
+    "manCategory": "Hombres",
+    "womanCategory": "Mujeres",
+    "title": "Tienda",
+    "productBtnText": "Ver más",
+    "empty": "No hay productos para mostrar",
+    "filters": {
+      "size": "Talla",
+      "color": "Color",
+      "brand": "Marca",
+      "orderBy": "Ordenar por",
+      "orderByLowerPrice": "Precio (menor - mayor)",
+      "orderByHigherPrice": "Precio (mayor - menor)",
+      "clearFilters": "Limpiar filtros",
+      "search": "Buscar productos",
+      "searchBtnText": "Buscar",
+      "cleaned": "Filters cleaned",
+      "noFilters": "No filters selected"
+    },
+    "productDetails": {
+      "color": "Color",
+      "selectColor": "Seleccionar",
+      "noData": "No se encontró el producto",
+      "quantity": "Cantidad",
+      "size": "Talla",
+      "addToCart": "Agregar al carrito",
+      "addToFavorites": "Agregar a favoritos",
+      "removeFromFavorites": "Eliminar de favoritos",
+      "reviews": {
+        "title": "Reseñas",
+        "basedOn": "Basado en {total} reseñas",
+        "writeReviewBtnText": "Calificar"
+      },
+      "noSelectedData": "Debes seleccionar una talla y cantidad"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "shop": "Tienda"
+    },
+    "review": {
+      "title": "Calificar producto",
+      "rating": "Calificación",
+      "review": "Comentario",
+      "saveBtnText": "Guardar",
+      "noSession": "Debes iniciar sesión para calificar este producto",
+      "alreadyReviewed": "Ya has calificado este producto",
+      "requiredFields": "Todos los campos son obligatorios"
+    }
+  },
+  "Contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes alguna duda? ¡Contáctanos!",
+    "text": "Si tienes alguna duda o comentario, no dudes en contactarnos. Estamos para ayudarte.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "sendBtnText": "Enviar"
+    }
+  },
+  "Admin": {
+    "dashboard": {
+      "title": "Panel de administración",
+      "todayGains": "Ganancias de hoy",
+      "monthlyGains": "Ganancias mes actual",
+      "totalGains": "Ganancias totales",
+      "yesterday": "Ayer",
+      "lastMonth": "Mes pasado",
+      "lastYear": "Año pasado",
+      "adminProducts": "Administrar productos",
+      "adminOrders": "Administrar pedidos"
+    },
+    "products": {
+      "addProduct": "Agregar producto",
+      "actions": "Acciones",
+      "product": "Producto",
+      "price": "Precio",
+      "stock": "Stock",
+      "category": "Categoría",
+      "brand": "Marca",
+      "color": "Color",
+      "size": "Talla",
+      "saveBtnText": "Guardar",
+      "cancelBtnText": "Cancelar",
+      "editBtnText": "Editar",
+      "addBtnText": "Agregar",
+      "empty": "No hay productos",
+      "showing": "Mostrando",
+      "page": "Página",
+      "totalProducts": "Productos totales"
+    },
+    "product": {
+      "addProductTitle": "Agregar producto",
+      "editProductTitle": "Editar producto",
+      "deleteProductTitle": "Eliminar producto",
+      "deleteProductText": "¿Estás seguro de que quieres eliminar este producto? Esta acción no se puede deshacer.",
+      "viewProductTitle": "Ver producto",
+      "chooseFiles": "Elegir archivos",
+      "noFilesSelected": "Ningun archivo seleccionado",
+      "name": "Nombre",
+      "description": "Descripción",
+      "descriptionEn": "Descripción en inglés",
+      "price": "Precio",
+      "stock": "Stock",
+      "addSizeBtnText": "Agregar talla",
+      "category": "Categoría",
+      "brand": "Marca",
+      "color": "Color ES, Color EN",
+      "size": "Talla",
+      "saveBtnText": "Guardar",
+      "editBtnText": "Editar",
+      "deleteBtnText": "Eliminar",
+      "cancelBtnText": "Cancelar",
+      "requiredFields": "Todos los campos son obligatorios"
+    }
+  },
+  "Cart": {
+    "title": "Carrito",
+    "emptyCart": "Tu carrito está vacío",
+    "checkoutBtnText": "Pagar",
+    "unauthenticated": "Inicia sesión para agregar productos al carrito",
+    "login": "Iniciar sesión",
+    "less": "No puedes agregar menos de 1 unidad",
+    "greater": "La cantidad no puede ser mayor a 10",
+    "noSession": "Debes iniciar sesión para agregar productos al carrito",
+    "orderDetails": {
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "buyBtnText": "Comprar"
+    },
+    "checkout": {
+      "requiredFields": "Todos los campos son obligatorios",
+      "success": "Pedido realizado con éxito",
+      "contactInfo": {
+        "title": "Info. de contacto",
+        "name": "Nombres",
+        "lastname": "Apellidos",
+        "email": "Correo electrónico",
+        "id": "Cédula",
+        "phone": "Celular"
+      },
+      "shipmentInfo": {
+        "title": "Info. de envío",
+        "address": "Dirección",
+        "addressPlaceholder": "Ej: Calle 123 # 45 - 67",
+        "city": "Ciudad",
+        "state": "Departamento",
+        "details": "Detalles",
+        "detailsPlaceholder": "Ej: Casa, apto, oficina, etc.",
+        "select": "Seleccionar"
+      },
+      "resume": {
+        "title": "Finalizar",
+        "subtitle": "Resumen de la compra",
+        "finalizeBtnText": "Finalizar compra"
+      },
+      "nextBtnText": "Continuar"
+    }
+  },
+  "Favorites": {
+    "title": "Favoritos",
+    "unauthenticated":"Inicia sesión para agregar productos a favoritos",
+    "empty": "No tienes productos marcados como favoritos",
+    "login": "Iniciar sesión"
+  },
+  "Error": {
+    "text": "Ocurrio un error, por favor intenta mas tarde"
+  },
+  "Loading": {
+    "text": "Cargando"
+  },
+  "Close": {
+    "text": "Cerrar"
+  },
+  "ProfileDropdown": {
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "orders": "Mis pedidos",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
+  "ActiveSession": {
+    "text": "Ya iniciaste sesión como {user}"
+  },
+  "Pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "Profile": {
+    "title": "Perfil",
+    "greetings": "Hola! {name} {lastname}",
+    "subtitle": "Aquí puedes ver y editar tu información personal",
+    "logout": "Cerrar sesión",
+    "editBtnText": "Editar",
+    "saveBtnText": "Guardar",
+    "continueBtnText": "Continuar",
+    "recoverPassword": {
+      "invalidEmail": "Correo electrónico inválido",
+      "loadingEmail": "Enviando correo de recuperación",
+      "passwordsDontMatch": "Las contraseñas no coinciden",
+      "invalidPassword": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número",
+      "loadingPassword": "Actualizando contraseña"
+    },
+    "editUser": {
+      "requiredFields": "Todos los campos son obligatorios",
+      "noChanges": "No se detectaron cambios",
+      "success": "Datos actualizados correctamente",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "contactInfo": {
+      "title": "Datos de contacto",
+      "phone": "Celular",
+      "editTitle": "Editar info de contacto"
+    },
+    "domicileInfo": {
+      "title": "Datos domicilio",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "state": "Departamento",
+      "details": "Detalles",
+      "select": "Seleccionar",
+      "editTitle": "Editar info de domicilio"
+    },
+    "accessInfo": {
+      "title": "Datos de acceso",
+      "verifyPassword": "Verificar contraseña",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "editTitle": "Editar info de acceso",
+      "noEmail": "Por favor ingresa tu correo electrónico",
+      "invalidEmail": "Correo electrónico inválido",
+      "noPassword": "Por favor ingresa tu contraseña",
+      "invalidPassword": "Contraseña incorrecta",
+      "passwordCondition":"La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número",
+      "noChanges": "No se detectaron cambios",
+      "success": "Verificación exitosa",
+      "error": "Ocurrio un error, por favor intenta mas tarde",
+      "successChanged": "Datos actualizados correctamente"
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "subtitle": "¿Estás seguro que deseas eliminar tu cuenta?",
+      "text": "Esta acción no se puede deshacer. Si estas seguro ingresa tu contraseña y presiona el botón eliminar cuenta.",
+      "password": "Contraseña",
+      "cancelBtnText": "Cancelar",
+      "deleteBtnText": "Eliminar cuenta"
+    }
+  },
+  "Orders": {
+    "title": "Pedidos",
+    "empty": "No tienes pedidos",
+    "order": "Pedido",
+    "size": "Talla",
+    "searchPlaceholder": "Buscar por nombres o apellidos",
+    "noAdminData": "No hay pedidos para mostrar",
+    "update": "Actualizar",
+    "trackingPlaceholder": "Id de seguimiento",
+    "orderStatus": {
+      "title": "Estado del pedido",
+      "awaiting": "En espera de pago",
+      "pending": "Pendiente",
+      "sent": "Enviado",
+      "delivered": "Entregado"
+    },
+    "products": {
+      "title": "Productos",
+      "client": "Cliente",
+      "phone": "Celular",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "quantity": "Cantidad",
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "iva": "IVA",
+      "total": "Total"
+    }
+  },
+  "Recover": {
+    "title": "Recuperar contraseña",
+    "adviseText": "Te enviaremos un correo electrónico con un enlace para restablecer tu contraseña.",
+    "email": "Correo electrónico",
+    "saveBtnText": "Guardar",
+    "password": "Nueva contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "condition": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número"
+  },
+  "Aside": {
+    "title": "Redes sociales"
+  },
+  "Footer": {
+    "products": {
+      "title": "Productos",
+      "overview": "Resumen",
+      "solutions": "Soluciones",
+      "pricing": "Precios"
+    },
+    "company": {
+      "title": "Compañía",
+      "about": "Acerca de",
+      "jobs": "Trabajos",
+      "contact": "Contacto"
+    },
+    "support": {
+      "title": "Soporte",
+      "help": "Ayuda",
+      "community": "Comunidad"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Politica de privacidad",
+      "terms": "Términos del servicio",
+      "security": "Seguridad"
+    },
+    "newsletter": {
+      "title": "Boletín",
+      "subtitle": "Suscríbete a nuestro boletín para recibir noticias y actualizaciones",
+      "email": "Correo electrónico",
+      "subscribeBtnText": "Suscribirse"
+    }
+  },
+  "API": {
+    "signup": {
+      "requiredFields": "Todos los campos son obligatorios",
+      "invalidEmail": "Correo electrónico inválido",
+      "invalidPassword": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número",
+      "invalidMatchPassword": "Las contraseñas no coinciden",
+      "invalidName": "El nombre solo puede contener letras",
+      "invalidLastname": "El apellido solo puede contener letras",
+      "existingUser": "Ya existe un usuario con este correo electrónico",
+      "success": "Se ha enviado un correo electrónico para verificar su cuenta, por favor verifique su bandeja de entrada",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "verify": {
+      "noToken": "No se ha enviado el token",
+      "invalidToken": "El token es inválido o ha expirado",
+      "success": "Se ha verificado tu cuenta, ahora puedes iniciar sesión",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "cart":{
+      "noStock": "No hay suficiente stock disponible, solo quedan {stock} unidades",
+      "updatedQuantity": "Cantidad actualizada",
+      "removedProduct": "Producto eliminado",
+      "success": "Producto agregado al carrito",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "deleteAccount": {
+      "noPassword": "Por favor ingresa tu contraseña",
+      "invalidPassword": "Contraseña incorrecta",
+      "success": "Cuenta eliminada",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "favorites": {
+      "success": "Producto agregado a favoritos",
+      "removedProduct": "Producto eliminado de favoritos",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "orders": {
+      "noAdmin": "No tienes permisos para realizar esta acción",
+      "success": "Pedido actualizado con éxito",
+      "error": "Ocurrio un error, por favor intenta mas tarde"
+    },
+    "products": {
+      "noAdmin": "No tienes permisos para realizar esta acción",
+      "success": "Producto creado correctamente",
+      "error": "Ocurrio un error, por favor intenta mas tarde",
+      "deletedProduct": "Producto eliminado correctamente",
+      "updatedProduct": "Producto actualizado correctamente"
+    },
+    "recover": {
+      "noEmail": "Por favor ingresa tu correo electrónico",
+      "requiredFields": "Todos los campos son obligatorios",
+      "noExistingUser": "No existe un usuario con este correo electrónico",
+      "invalidEmail": "Correo electrónico inválido",
+      "success": "Se ha enviado un correo electrónico para restablecer tu contraseña, por favor verifique su bandeja de entrada",
+      "error": "Ocurrio un error, por favor intenta mas tarde",
+      "noToken": "No se ha enviado el token",
+      "invalidPassword": "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número",
+      "invalidMatchPassword": "Las contraseñas no coinciden",
+      "passwordSuccess": "Contraseña actualizada correctamente",
+      "expiredToken": "El token es inválido o ha expirado"	
+    },
+    "review": {
+      "success": "Reseña creada correctamente",
+      "error": "Ocurrio un error, por favor intenta mas tarde",
+      "noBought": "No puedes calificar un producto que no has comprado"
+    }
+  },
+  "SizeStockForm": {
+    "requiredFields": "Ingrese una talla y su stock",
+    "existingSize": "Ya existe esa talla"
+  }
+}

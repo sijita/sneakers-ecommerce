@@ -1,0 +1,432 @@
+{
+  "Header": {
+    "home": "Home",
+    "shop": "Shop",
+    "contact": "Contact"
+  },
+  "Login": {
+    "title": "Log In",
+    "email": "Email",
+    "password": "Password",
+    "loginBtnText": "Log in",
+    "signupBtnText": "Sign up",
+    "recoverPassword": "Password recovery",
+    "requiredFields": "All fields are required",
+    "invalidEmail": "Invalid email",
+    "success": "Session successfully started",
+    "error": "An error occurred, please try again later"
+  },
+  "Signup": {
+    "title": "Sign up",
+    "name": "Name",
+    "lastname": "Lastname",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "passwordCondition": "The password must have at least 8 characters, one uppercase, one lowercase and one number.",
+    "signupBtnText": "Sign up",
+    "loginBtnText": "Log in"
+  },
+  "Home": {
+    "heroTitle": "YOUR FEET DESERVE THE BEST",
+    "heroSubtitle": "Your feet deserve the best and we are here to help you.",
+    "heroBtnText": "Buy now",
+    "firstCategory": "Kids",
+    "secondCategory": "Man",
+    "thirdCategory": "Woman",
+    "categoryBtnText": "Show more",
+    "featuredTitle": "Featured"
+  },
+  "Shop": {
+    "kidsCategory": "Kids",
+    "manCategory": "Man",
+    "womanCategory": "Woman",
+    "title": "Shop",
+    "productBtnText": "Show more",
+    "empty": "There are no products to display",
+    "filters": {
+      "size": "Size",
+      "color": "Color",
+      "brand": "Brand",
+      "orderBy": "Order by",
+      "orderByLowerPrice": "Price (minor - higher)",
+      "orderByHigherPrice": "Price (higher - minor)",
+      "clearFilters": "Clean filters",
+      "search": "Search products",
+      "searchBtnText": "Search",
+      "cleaned": "Filters cleaned",
+      "noFilters": "No filters selected"
+    },
+    "productDetails": {
+      "color": "Color",
+      "selectColor": "Select",
+      "noData": "Product not found",
+      "quantity": "Quantity",
+      "size": "Size",
+      "addToCart": "Add to cart",
+      "addToFavorites": "Add to favorites",
+      "removeFromFavorites": "Remove from favorites",
+      "reviews": {
+        "title": "Reviews",
+        "basedOn": "Based on {total} reviews",
+        "writeReviewBtnText": "Rate"
+      },
+      "noSelectedData": "You must select a size and quantity"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "shop": "Shop"
+    },
+    "review": {
+      "title": "Rate product",
+      "rating": "Score",
+      "review": "Review",
+      "saveBtnText": "Save",
+      "noSession": "You must be logged in to rate this product",
+      "alreadyReviewed": "You have already rated this product",
+      "requiredFields": "All fields are required"
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "If you have any questions, please contact us!",
+    "text": "If you have any questions or comments, please do not hesitate to contact us. We are here to help you.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "sendBtnText": "Send"
+    }
+  },
+  "Admin": {
+    "dashboard": {
+      "title": "Admin dashboard",	
+      "todayGains": "Earnings today",
+      "monthlyGains": "Monthly earnings",
+      "totalGains": "Total earnings",
+      "yesterday": "Yesterday",
+      "lastMonth": "Last month",
+      "lastYear": "Last year",
+      "adminProducts": "Manage products",
+      "adminOrders": "Manage orders"
+    },
+    "products": {
+      "addProduct": "Add product",
+      "actions": "Actions",
+      "product": "Product",
+      "price": "Price",
+      "stock": "Stock",
+      "category": "Category",
+      "brand": "Brand",
+      "color": "Color",
+      "size": "Size",
+      "saveBtnText": "Save",
+      "cancelBtnText": "Cancel",
+      "editBtnText": "Edit",
+      "addBtnText": "Add",
+      "empty": "There are no products",
+      "showing": "Showing",
+      "page": "Page",
+      "totalProducts": "Total products"
+    },
+    "product": {
+      "addProductTitle": "Add product",
+      "editProductTitle": "Edit product",
+      "viewProductTitle": "View product",
+      "deleteProductTitle": "Delete product",
+      "deleteProductText": "Are you sure you want to eliminate this product? This action can not be undone.",
+      "chooseFiles": "Choose files",
+      "noFilesSelected": "No files selected",
+      "name": "Name",
+      "description": "Description",
+      "descriptionEn": "Description in English",
+      "price": "Price",
+      "stock": "Stock",
+      "addSizeBtnText": "Add size",
+      "category": "Category",
+      "brand": "Brand",
+      "color": "Color ES, Color EN",
+      "size": "Size",
+      "saveBtnText": "Save",
+      "editBtnText": "Edit",
+      "deleteBtnText": "Delete",
+      "cancelBtnText": "Cancel",
+      "requiredFields": "All fields are required"
+    }
+  },
+  "Cart": {
+    "title": "Cart",
+    "emptyCart": "Your cart is empty",
+    "checkoutBtnText": "Pay",
+    "unauthenticated": "Log in to add products to cart",
+    "login": "Log in",
+    "less": "You cannot add less than 1 unit",
+    "greater": "Quantity cannot be greater than 10",
+    "noSession": "You must be logged in to add products to the cart",
+    "orderDetails": {
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "buyBtnText": "Buy"
+    },
+    "checkout": {
+      "requiredFields": "All fields are required",
+      "success": "Order created successfully",
+      "contactInfo": {
+        "title": "Contact info.",
+        "name": "Names",
+        "lastname": "Lastnames",
+        "email": "Email",
+        "id": "ID",
+        "phone": "Phone number"
+      },
+      "shipmentInfo": {
+        "title": "Shipping info.",
+        "address": "Address",
+        "addressPlaceholder": "Street, avenue, etc.",
+        "city": "City",
+        "state": "State",
+        "details": "Details",
+        "detailsPlaceholder": "House number, apartment number, etc.",
+        "select": "Select"
+      },
+      "resume": {
+        "title": "Finalize",
+        "subtitle": "Summary of purchase",
+        "finalizeBtnText": "Finalize purchase"
+      },
+      "nextBtnText": "Continue"
+    }
+  },
+  "Favorites": {
+    "title": "Favorites",
+    "unauthenticated":"Log in to add products to favorites",
+    "empty": "You don't have any favorite products yet",
+    "login": "Log in"
+  },
+  "Error": {
+    "text": "An error occurred, please try again later."
+  },
+  "Loading": {
+    "text": "Loading"
+  },
+  "Close": {
+    "text": "Close"
+  },
+  "ProfileDropdown": {
+    "profile": "Profile",
+    "logout": "Log out",
+    "orders": "My orders",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "ActiveSession": {
+    "text": "You are already logged in as {user}"
+  },
+  "Pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "Profile": {
+    "title": "Profile",
+    "greetings": "Hello! {name} {lastname}",
+    "subtitle": "Here you can see and edit your personal information",
+    "logout": "Log out",
+    "editBtnText": "Edit",
+    "saveBtnText": "Save",
+    "continueBtnText": "Continue",
+    "recoverPassword": {
+      "invalidEmail": "Invalid email",
+      "loadingEmail": "Sending recovery mail",
+      "passwordsDontMatch": "Passwords don't match",
+      "invalidPassword": "The password must have at least 8 characters, one uppercase, one lowercase and one number",
+      "loadingPassword": "Updating password"
+    },
+    "editUser": {
+      "requiredFields": "All fields are required",
+      "noChanges": "No changes detected",
+      "success": "Data updated successfully",
+      "error": "An error occurred, please try again later"
+    },
+    "contactInfo": {
+      "title": "Contact data",
+      "phone": "Phone",
+      "editTitle": "Edit contact info"
+    },
+    "domicileInfo": {
+      "title": "Domicile data",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "details": "Details",
+      "select": "Select",
+      "editTitle": "Edit domicile info"
+    },
+    "accessInfo": {
+      "title": "Access data",
+      "verifyPassword": "Verify password",
+      "email": "Email",
+      "password": "Password",
+      "editTitle": "Edit access info",
+      "noEmail": "Please enter your email",
+      "invalidEmail": "Invalid email",
+      "noPassword": "Please enter your password",
+      "invalidPassword": "Incorrect password",
+      "passwordCondition":"The password must have at least 8 characters, one uppercase, one lowercase and one number.",
+      "noChanges": "No changes were made",
+      "success": "successful verification",
+      "error": "An error occurred, please try again later",
+      "successChanged": "Changes saved successfully"
+    },
+    "deleteAccount": {
+      "title": "Delete account",
+      "subtitle": "Are you sure you want to eliminate your account?",
+      "text": "This action can not be undone. If you want to continue, enter your password and click on the delete button.",
+      "password": "Password",
+      "cancelBtnText": "Cancel",
+      "deleteBtnText": "Delete account"
+    }
+  },
+  "Orders": {
+    "title": "Orders",
+    "empty": "You don't have any orders yet",
+    "order": "Order",
+    "size": "Size",
+    "searchPlaceholder": "Search by first or last name",
+    "update": "Update",
+    "trackingPlaceholder": "Tracking id",
+    "noAdminData": "There are no orders to display",
+    "orderStatus": {
+      "title": "Order status",
+      "awaiting": "Awaiting payment",
+      "pending": "Pending",
+      "sent": "Sent",
+      "delivered": "Delivered"
+    },
+    "products": {
+      "title": "Products",
+      "client": "Client",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "quantity": "Amount",
+      "subtotal": "Subtotal",
+      "shipping": "Shipment",
+      "iva": "IVA",
+      "total": "Total"
+    }
+  },
+  "Recover": {
+    "title": "Recover password",
+    "adviseText": "We'll send you an email with a link to reset your password.",
+    "email": "Email",
+    "saveBtnText": "Save",
+    "password": "New password",
+    "confirmPassword": "Confirm password",
+    "condition": "The password must have at least 8 characters, one uppercase, one lowercase and one number."
+  },
+  "Aside": {
+    "title": "Social networks"
+  },
+  "Footer": {
+    "products": {
+      "title": "Products",
+      "overview": "Overview",
+      "solutions": "Solutions",
+      "pricing": "Pricings"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "jobs": "Jobs",
+      "contact": "Contact"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help",
+      "community": "Community"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "security": "Security"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe to our newsletter to receive the latest news and promotions.",
+      "email": "Email",
+      "subscribeBtnText": "Suscribe"
+    }
+  },
+  "API": {
+    "signup": {
+      "requiredFields": "All fields are required",
+      "invalidEmail": "Invalid email",
+      "invalidPassword": "The password must have at least 8 characters, one uppercase, one lowercase and one number",
+      "invalidMatchPassword": "Passwords don't match",
+      "invalidName": "The name can only contain letters",
+      "invalidLastname": "Last name can only contain letters",
+      "existingUser": "There is already a user with this email",
+      "success": "An email has been sent to verify your account, please check your inbox",
+      "error": "An error occurred, please try again later"
+    },
+    "verify": {
+      "noToken": "Token not sent",
+      "invalidToken": "The token is invalid or has expired",
+      "success": "Your account has been verified, now you can log in",
+      "error": "An error occurred, please try again later"
+    },
+    "cart":{
+      "noStock": "Not enough stock available, only {stock} units left",
+      "updatedQuantity": "Updated quantity",
+      "removedProduct": "Product removed",
+      "success": "Product added to cart",
+      "error": "An error occurred, please try again later"
+    },
+    "deleteAccount": {
+      "noPassword": "Please enter your password",
+      "invalidPassword": "Incorrect password",
+      "success": "Account deleted",
+      "error": "An error occurred, please try again later"
+    },
+    "favorites": {
+      "success": "Product added to favorites",
+      "removedProduct": "Product removed from favorites",
+      "error": "An error occurred, please try again later"
+    },
+    "orders": {
+      "noAdmin": "You don't have permissions to perform this action",
+      "success": "Order updated successfully",
+      "error": "An error occurred, please try again later"
+    },
+    "products": {
+      "noAdmin": "You do not have permissions to perform this action",
+      "success": "product created successfully",
+      "error": "An error occurred, please try again later",
+      "deletedProduct": "Product successfully removed",
+      "updatedProduct": "Product updated successfully"
+    },
+    "recover": {
+      "noEmail": "Please enter your email",
+      "requiredFields": "All fields are required",
+      "noExistingUser": "There is no user with this email",
+      "invalidEmail": "Invalid email",
+      "success": "A password reset email has been sent, please check your inbox",
+      "error": "An error occurred, please try again later",
+      "noToken":"Token not sent",
+      "invalidPassword": "The password must have at least 8 characters, one uppercase, one lowercase and one number",
+      "invalidMatchPassword": "Passwords don't match",
+      "passwordSuccess": "Password updated successfully",
+      "expiredToken": "The token is invalid or has expired"
+    },
+    "review": {
+      "success": "Review created successfully",
+      "error": "An error occurred, please try again later",
+      "noBought": "You can't rate a product you haven't purchased"
+    }
+  },
+  "SizeStockForm": {
+    "requiredFields": "Enter a size and their stock",
+    "existingSize": "That size already exists"
+  }
+}
